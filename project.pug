@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pug</title>
+    style
+        include style.css
+</head>
+
+<body>
+    <navbar class="nav">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About us</a></li>
+            <li><a href="/">Contact Us</a></li>
+        </ul>
+    </navbar>
+
+    <div class="container">
+
+        <h2>Get this gym membership for $10 - Fill This form</h2>
+    </div>
+
+    <form action="/" method="post" id="contact">
+        <input type="text" name="Name" id="Name" placeholder="Enter Your Name">
+        <input type="text" name="Age" id="Age" placeholder="Enter Your Age">
+        <input type="text" name="Email" id="Email" placeholder="Enter Your Email">
+        <input type="text" name="Gender" id="Gender" placeholder="Enter Your Gender">
+        <textarea name="Address" id="" cols="30" rows="10" placeholder="Enter Your address"></textarea>
+        <textarea name="More about you" id="" cols="30" rows="10" placeholder=" More about you"></textarea>
+        <button class="btn">Submit Now</button>
+    </form>
+</body>
+
+</html>
